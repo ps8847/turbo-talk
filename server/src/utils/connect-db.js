@@ -9,6 +9,8 @@ const connectDb = () => {
       console.log("DB connected Successfully");
     })
     .catch((err) => {
+      console.log("errdb is : " , err);
+      
       console.log("Db connection failed");
     });
 };
